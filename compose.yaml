@@ -13,8 +13,7 @@ services:
       retries: 5
 
   backend:
-    build: 
-      context: ./backend
+    image: wildmaster/fest-backend:1.0.0
     environment:
       DB_HOST: db
       REGNO: "2400290120211"
